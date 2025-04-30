@@ -18,16 +18,6 @@ const firebaseConfig = {
     measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
 
-// const firebaseConfig = {
-//     apiKey: "AIzaSyBnQnMIzPgsilXy8o5IrSwIAWdB1zVekAM",
-//     authDomain: "prepwise-f4be8.firebaseapp.com",
-//     projectId: "prepwise-f4be8",
-//     storageBucket: "prepwise-f4be8.firebasestorage.app",
-//     messagingSenderId: "545421134787",
-//     appId: "1:545421134787:web:8c6d6e1778f3b33ffacb76",
-//     measurementId: "G-03QPBFL2SC"
-// };
-
 // Initialize Firebase
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 // const analytics = getAnalytics(app);
